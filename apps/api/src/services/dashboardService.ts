@@ -16,7 +16,7 @@ export function getPublicFinanceSnapshot() {
   return {
     estimatedMonthlyTaxContribution,
     yearlyProjection: estimatedMonthlyTaxContribution * 12,
-    currency: "KES",
+    currency: "USD",
     allocationBreakdown,
     headlineStats: [
       { label: "Active citizens", value: "13", change: "+4 this week" },
