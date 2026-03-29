@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "CivicWallet",
+    "slug": "civicwallet",
+    "scheme": "civicwallet",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "plugins": [
+      "expo-router",
+      "expo-location",
+      "expo-image-picker"
+    ]
+  }
+}
+
